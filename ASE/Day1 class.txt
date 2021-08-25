@@ -1,0 +1,75 @@
+Overview
+
+Dianxiang Xu
+dxu@umkc.edu
+
+Office hours
+Tu Th 2:30 PM- 4:00 PM or by appointment
+
+Scrum: for the group project
+
+Most complex program written?
+	- Lines of code(LOC) - 100000
+	- Increase in LOC decreases the quality of the product
+	
+
+Need lot of programming knowledge due to homework based on programming
+
+ Objectives: Clean and Quality code
+
+Pre-requisites:
+CS451R Software Engineering or CS44 Foundations of Software Engineering
+Familiar with Object-Oriented Programming Language(e.g., Java, C++,C# or Python)
+
+No Need to buy book
+Available from the library:
+	- Ask for the book at the First Floor Circulation desk
+	- Tell the library worker that the book is on the Course Reservers shelves.
+
+Book:
+Modern Software Engineering Principle Practice
+	- Writing clean, Dependable code
+
+
+
+Assessment:
+
+Quizzes: 5 Points
+	- During class time
+Individual assignments: 15  points
+Team Projects: 20 points
+	- Deadline: weeks 5,8,12,16
+Midterm: 20 points
+	- During class time in the 9th Week
+Final: 25 points
+
+Class
+
+What is software engineering?
+
+Problem: software crisis - software is delivered
+	- Late
+	- Over budget
+	- With residual faults
+Solution: engineering process
+	- planning, requirements, design, implementation, testing, maintenance
+	- Process management
+
+Software processes
+Requirement Analysis
+Fundamentals of software design
+Implementation
+Fundamental QA/ testing Techniques
+Software Project Management
+	- Team Organization
+
+Software Processes
+	- Scrum
+Advances Software Design
+Secure Software Development
+Software Verification
+
+
+Overview
+	- Waterfall Model
+	- Incremental 
