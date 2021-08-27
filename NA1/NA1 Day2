@@ -1,0 +1,121 @@
+Outline
+
+	- Applications
+	- Requirements
+	- Network architecture 
+	- connectivity
+
+
+
+Application Protocol
+
+	- URL
+	- HTTP
+	- TCP
+
+
+Internet structure: network of networks
+
+Connectivity
+
+	- Link
+	- Nodes
+	- Point-to-point
+	- Multiple access
+	- Switched network
+
+
+
+
+Cost effective Resource sharing
+
+
+Stastical Multiplexing
+
+LAN, MAN, WAN, SAN
+
+Common communication Patterns
+
+	- Client
+
+
+Practical issues- Reliability
+
+Bits are lost
+	- Bit errors( 1 to 0 and vice versa)
+	- Burst errors - several consecutive errors
+Packets are lost(congestion)
+Links and nodes failures
+Messages are delayed
+Messages are delivered out-of-order
+
+Protocols
+	- Protocol defines the interfaces between the layers in the same system and with the layers of peer system
+
+OSI model(Open system Interconnection)
+
+Application
+	- FTP,SMTP,HTTP
+Presentation
+	- 
+Session
+Transport
+	- TCP,UDP
+Network
+	- IP, routing protocols
+Data Link
+	- Ethernet, 802.11(WiFi), PPP
+Physical: bits on Wire
+
+Internet Protocol Stack
+	
+	
+Presentation: allows applications to interpret meaning of data,
+E.g., encryption, compression, machine specific conventions
+Session: synchronization of data
+
+Packet switching: store and forward
+
+2L/R with delay propagation
+
+L=7.5 Mbit
+R=1.5 Mbps
+
+Two key netwrok-core functions
+	- Routing
+	- Forwarding 
+Alternative: circuit switching
+
+Circuit switching: FDM vs TDM
+
+Packet switching vs circuit switching
+
+Performance metrics
+	- Delay
+	- Bandwidth
+	- Loss
+
+Delay = Propagation + Transmit + Queue + processing 
+	- Propagation = distance/speed of light
+	- Transmit = size/bandwidth
+ One bit Transmisson => propagation is important
+
+D nodal = d proc + d queue + d trans + d prop
+
+D proc: nodal processing
+	- Check bit errors
+	- Determine output link
+	- Typical < msec
+
+D queue: queueing delay
+	- Time waiting at output link for transmission
+	- Depends upon congestion level
+
+D trans: transmission delay
+L: packet length(bits)
+R: link bandwith
+
+
+
+
+Delay X Bandwidth
