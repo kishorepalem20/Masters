@@ -1,0 +1,47 @@
+Socket Programming
+
+Socket API
+
+	- Client/ server paradigm
+	- Architecture- server & client
+
+An telephone network analogy
+	- Telephony network
+
+Java & C language in the world of Sockets
+
+
+TCP and UDP socket coding 
+TCP
+	- Bi-directional
+	- Uni-directional(client-server architecture
+
+ 
+
+Link Layer: Introduction
+
+Transportation analogy:
+
+Link Layer services
+	- Framing, Link access:
+	- Reliable delivery between adjacent nodes
+
+Adaptors communicating
+	- Sending side 
+	- Receiving side
+
+
+Error detection
+
+Parity checking
+	- Single bit parity:
+	- Two-dimensional bit parity:
+
+Internet checksum
+Goal: detect errors(flipped bits) in transmitted packet
+	- Sender
+	- Receiver
+
+Cyclic redundancy check
+
+
