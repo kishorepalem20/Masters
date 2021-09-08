@@ -1,0 +1,27 @@
+Corner stone of NN learning
+
+It's an algorithm to reduce error. Mean of the errors!!
+
+2D is a derivative or x and y
+
+The gradient descent algorithm moves the parameters of learning machine against the direction of error gradient
+
+ Regular neural networks:
+	- System topology
+	- Performance criterion
+	- Adaptation algorithms
+
+Neural Nets: Node architecture
+Multi layer Neural nets
+
+Bias variance dilemma
+
+Temporal Neural Nets
+
+Depth in DNN: Repeated Composition
+
+Example: car, person, animal
+
+Deep fake 
+ NLP
+NN 
