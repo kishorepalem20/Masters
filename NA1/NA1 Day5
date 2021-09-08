@@ -1,0 +1,102 @@
+To do 
+
+Understanding Binaries
+
+Notes:
+
+Cyclic redundancy  check
+
+R+1 pattern
+
+D x 2 ^r  XOR  x R = nG
+
+R = remainder x ( (D 2 ^r)/g))
+
+
+Multiple access links, protocols
+
+Two types of links
+	- Point-to-point
+	- Broadcast( shared wire or medium)
+		○ HFC( hybrid fiber coaxial cable)- dailup
+
+In single shared broadcast channel if two or more simultaneous transmissions by nodes: interference
+	- Collision
+
+Multiple access protocol
+	- Distributed algorithm
+
+
+An ideal multiple access protocol
+
+Given: broadcast channel of rate R bps
+Decided:
+
+MAC protocols: taxanomy
+
+Three classes:
+	- Channel pratitioning
+	- Random access
+	- "Taking turns"
+
+Channel partitioning MAC protocols: TDMA
+
+TDMA: time division multiple access
+Access to channel in round
+
+FDMA: frequency division multiple access
+
+Random access protocols
+
+ALOHA: Additive Links On-line Hawaii Area.
+Slotted ALOHA
+
+Efficiency- calculation
+
+P ( 1-p)^N-1
+
+Max efficiency:= 1/e = .37
+
+Pure(unslotted) ALOHA
+
+Probability efficiency = 1/2e = .18
+
+Worse than slotted ALOHA!
+
+CSMA( carrier sense multiple access)
+	Listen before transmit
+	
+CSMA collisions
+
+NIC: network interface controller
+
+CSMA/CD efficiency
+
+Tprop
+Ttrans
+
+Efficiency = 1/(1+(5Tprop)/Ttrans))
+
+Taking turns MAC protocols
+	- Polling
+	- Concerns:
+		○ Polling overhead
+		○ Latency
+		○ Single point of failure(master)
+
+Token passing:
+
+Token passed from one node to next sequentially 
+Concerns:
+	- Token overhead
+	- Latency
+	- Single point of failure
+
+Summary:
+	- Channel partitioning
+	- Random access
+	- Taking turns
+	
+
+
+
