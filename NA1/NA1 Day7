@@ -1,0 +1,34 @@
+802.11: Mobility within same subnet
+	- HI remains in same IP subnet: IP address can remain same
+
+Switch- data link layer
+Router- network layer
+
+802.15: Personal area network - Bluetooth
+	- Less than 10m
+	- 802.15 evolves from Bluetooth
+	- 2.4-2.5 GHz radio band
+	- Up to 712 kbps
+
+MAC addressses and ARP
+
+	- 32-bit IP address:
+
+Lan addressses
+	- Administered by IEEE
+	- Manufacturer buys portion of MAC address space
+
+ARP: address resolution protocol
+
+**** wireshark*****
+
+Switch forwarding table
+
+Switch: Self-learning
+
+Interconnecting switch
+
+Switch vs routers
+	- Both are store and forward
+	- Both have forwarding tables
+
