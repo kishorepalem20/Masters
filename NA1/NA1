@@ -1,0 +1,61 @@
+Day 
+
+Transport layer:
+
+Principles behind transport layer services:
+	- Multiplexing,demultiplexing
+	- Reliable data transfer
+	- Flow control
+	- Congestion control
+
+TCP:
+	- Reliable, in-order delivery
+	- Congestion control
+	- Flow control
+	- Connection setup
+
+UDP:
+	- Unreliable, unordered delivery
+	- No frills extension of "best -effort" IP
+
+
+Demultiplexing
+	- host uses IP address &port numbers to direct segment to appropriate socket
+
+TCP socket identified by 4 tuple:
+	- Source IP address
+	- Source port number
+	- Dest IP address
+	- Dest port number
+
+Demux: receiver uses all four values to direct segment to appropriate socket
+
+UDP: User Datagram Protocol
+
+	- No frills, bare bones
+	- Best effort service, UDP segments may be:
+		○ Lost
+		○ Delivered out-of-order to app
+	- Connectionless:
+		○ No handshake between UDP sender, receiver
+		○ Each UDP segment handled independently of others
+UDP use:
+	- Streaming multimedia apps
+	- DNS
+	- SNMP
+	- HTTP/3
+
+If reliable transfer needed over UDP:
+	- Add needed reliability at application layer
+	- Add congestion control at application layer
+
+UDP checksum
+Goal: detect errors in transmitted segment
+
+Sender:
+	- Treat contents of UDP segment as sequence of 16-bit integers
+	- Checksum: addition of segment content
+	- Checksum value 
+
+Principles of reliable data transfer
+
