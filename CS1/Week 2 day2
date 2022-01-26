@@ -1,0 +1,13 @@
+LSB
+DCT
+
+
+Classical encryption technique
+
+	- Substitution technique
+	- Caeser cipher
+		○ DQG(P1+k1)mod 26
+	- Polyalphabetic ciphers:
+		○ Play fair cipher
+		○ Hill Cipher
+		
